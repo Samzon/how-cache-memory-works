@@ -20,7 +20,6 @@ int main() {
   int measureFrom = samplesSize - 600;
   int measureTo = samplesSize - 500;
 
-
   for(int i = measureFrom; i < measureTo; i++) {
     averageCycles += access[i];
   }
